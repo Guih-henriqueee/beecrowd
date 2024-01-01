@@ -1,11 +1,14 @@
-itemA = int(input())
-qtdA = int(input())
-priceA = float(input())
-itemB = int(input())
-qtdB = int(input())
-priceB = float(input())
+Line1 = input().split()
+Line2 = input().split()
+codItemA = int(Line1[0])
+qtdA = int(Line1[1])
+priceA = float(Line1[2])
+codItemB = int(Line2[0])
+qtdB = int(Line2[1])
+priceB = float(Line2[2])
+
 
 totalA = priceA * qtdA
 totalB = priceB * qtdB
 soma = totalA + totalB
-print(f'TOTAL A PAGAR: R$ {soma:.2f}')
+print(f'VALOR A PAGAR: R$ {soma:.2f}')

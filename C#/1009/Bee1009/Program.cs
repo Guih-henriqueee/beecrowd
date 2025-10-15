@@ -44,7 +44,7 @@ namespace KPISeller
             double Sales = double.Parse(Console.ReadLine());
 
             Vendedores pesquisa = new Vendedores(Seller, Sales, Wage);
-            Console.WriteLine($"TOTAL = R$ {pesquisa.GetSalarioFinal():F2}");
+            Console.WriteLine($"TOTAL  = R$ {pesquisa.GetSalarioFinal():F2}");
         }
     }
 }

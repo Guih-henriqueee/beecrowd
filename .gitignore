@@ -1,0 +1,67 @@
+## Compilação
+bin/
+obj/
+out/
+Debug/
+Release/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+## Configurações locais
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Sistema
+.DS_Store
+Thumbs.db
+
+## Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.swp
+*.lock
+*.txt
+
+## Pacotes NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+!packages/build/
+project.lock.json
+project.fragment.lock.json
+
+## Build do Visual Studio
+[Bb]uild[Ll]og.*
+*.tlog
+
+## Testes
+TestResults/
+*.coverage
+*.coveragexml
+
+## Publicações
+publish/
+*.Publish.xml
+
+## Cache do Visual Studio
+.vs/
+*.dbmdl
+*.jfm
+
+## Configurações de usuário e ambiente
+launchSettings.json
+appsettings.Development.json
+
+## Outros
+_ReSharper*/
+*.DotSettings.user
+*.resharper

@@ -1,5 +1,5 @@
-# Desafios Python 3.11
+# Desafios Beecrowd
 
-Diretório de exercicios práticos de lógica em Python.
+Diretório de exercicios práticos de lógica em Varias linguagens.
 
 
